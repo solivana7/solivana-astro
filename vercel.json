@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/chart-calculate.py": {
+      "maxDuration": 30
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/cron/cleanup",
+      "schedule": "0 4 * * *"
+    }
+  ]
+}

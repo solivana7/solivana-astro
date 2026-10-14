@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1783973297563,
+      "tag": "0000_robust_kree",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1783977758598,
+      "tag": "0001_gigantic_yellow_claw",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1784415278065,
+      "tag": "0002_mysterious_shadowcat",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1784442744695,
+      "tag": "0003_real_gunslinger",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1785352694711,
+      "tag": "0004_payment_tokens",
+      "breakpoints": true
+    }
+  ]
+}

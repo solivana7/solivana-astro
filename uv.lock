@@ -1,0 +1,39 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[manifest]
+overrides = [{ name = "pyswisseph", specifier = "==2.10.3.2" }]
+
+[[package]]
+name = "flatlib"
+version = "0.2.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pyswisseph" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f0/7f/57832c230ec71bffe1dbae08b3e87331e2b17e76585c85ca79dd7284e91a/flatlib-0.2.3.tar.gz", hash = "sha256:46cc956b936aa31a96082cff23448a5c27dd6e5e434a6293bc9265336c00dd5d", size = 5755027, upload-time = "2021-04-05T10:13:25.393Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/85/79/c00d124a1dc370095702c5bd77d8c683f0f67cfc59303f0222d93056c48e/flatlib-0.2.3-py3-none-any.whl", hash = "sha256:c846d83c965db7588581bb65ac9a6668b9a190afcad5027269f7e9c75f467bcd", size = 5762227, upload-time = "2021-04-05T10:07:55.632Z" },
+]
+
+[[package]]
+name = "karmic-interpreter-app"
+version = "0.0.1"
+source = { editable = "." }
+dependencies = [
+    { name = "flatlib" },
+    { name = "pyswisseph" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "flatlib", specifier = "==0.2.3" },
+    { name = "pyswisseph", specifier = "==2.10.3.2" },
+]
+
+[[package]]
+name = "pyswisseph"
+version = "2.10.3.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/66/a6/db70d67a00dda42ebd033538c086879328f4c17f670eafe8aca2f11abfef/pyswisseph-2.10.3.2.tar.gz", hash = "sha256:c54c305e83dbd5d2b71e58d8a69d8ee41de24c4d3328ce09e2af860a3537624d", size = 6940913, upload-time = "2023-06-04T17:05:53.293Z" }
